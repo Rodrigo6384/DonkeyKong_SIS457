@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\DonkeyKong_SIS457.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{CF38E6F6-C69E-4B5E-8569-3AA19E221670}</UniqueIdentifier>
+      <UniqueIdentifier>{32639105-01A4-4FF0-B4EC-5A7F701C39A1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\DonkeyKong_SIS457.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,10 @@
     <None Include="..\..\Source\DonkeyKong_SIS457Editor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{49EAAA1D-4029-4A3E-848F-E7102C7575F5}</UniqueIdentifier>
+      <UniqueIdentifier>{B04D6D50-BAC4-4B21-842A-986217305778}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +32,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\DonkeyKong_SIS457">
-      <UniqueIdentifier>{8F0BD32A-702F-4031-99F6-2A53CA578521}</UniqueIdentifier>
+      <UniqueIdentifier>{E03878AA-4C97-468F-8194-24D0188FE774}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\DonkeyKong_SIS457\DonkeyKong_SIS457.Build.cs">
       <Filter>Source\DonkeyKong_SIS457</Filter>
@@ -51,6 +53,12 @@
       <Filter>Source\DonkeyKong_SIS457</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\DonkeyKong_SIS457\DonkeyKong_SIS457GameMode.h">
+      <Filter>Source\DonkeyKong_SIS457</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DonkeyKong_SIS457\Mono.cpp">
+      <Filter>Source\DonkeyKong_SIS457</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DonkeyKong_SIS457\Mono.h">
       <Filter>Source\DonkeyKong_SIS457</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\DonkeyKong_SIS457\Plataforma.cpp">
